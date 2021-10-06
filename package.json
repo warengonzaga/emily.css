@@ -2,23 +2,34 @@
   "name": "emily.css",
   "version": "1.0.0",
   "description": "A lightweight, highly customizable, and responsive CSS grid framework.",
-  "main": "index.js",
+  "main": "emily.css",
+  "author": "Waren Gonzaga",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warengonzaga/emily.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/warengonzaga/emily.css/issues"
+  },
+  "github": "https://github.com/warengonzaga/emily.css",
+  "homepage": "https://emilycss.warengonzaga.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WarenGonzaga/emily.css.git"
-  },
   "keywords": [
+    "emily",
     "css",
     "framework",
-    "grid"
+    "grid",
+    "emilycss"
   ],
-  "author": "Waren Gonzaga",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/WarenGonzaga/emily.css/issues"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
-  "homepage": "https://github.com/WarenGonzaga/emily.css#readme"
+  "files": [
+    "emily.css",
+    "emily.min.css",
+    "source/**/*.css"
+  ]
 }
