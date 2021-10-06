@@ -27,6 +27,11 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "devDependencies": {
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.57.1"
+  },
   "files": [
     "emily.css",
     "emily.min.css",
